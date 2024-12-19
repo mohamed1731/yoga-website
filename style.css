@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background: #6ab04c;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .about h2 {
+    color: #6ab04c;
+    margin-bottom: 1rem;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Services Section */
+  .services {
+    background: #f9f9f9;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .services h2 {
+    color: #6ab04c;
+    margin-bottom: 1rem;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    margin: 1rem 0;
+    text-align: left;
+  }
+  
+  .service-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
